@@ -29,17 +29,18 @@ public class UserController {
 
     @GetMapping("/{id}")
     public String show(@PathVariable("id") int id, Model model) {
-        model.addAttribute("user");
+        model.addAttribute("user", userService.show(id));
         return "users/show";
     }
 
     @GetMapping("/new")
     public String newUser(@ModelAttribute("user") User user) {
+
         return "users/new";
     }
 
     @PostMapping()
-    public String create(@ModelAttribute("user") User user,
+    public String create(@ModelAttribute("user") @Valid User user,
                          BindingResult bindingResult) {
         if (bindingResult.hasErrors())
             return "users/new";
@@ -50,7 +51,7 @@ public class UserController {
 
     @GetMapping("/{id}/edit")
     public String edit(Model model, @PathVariable("id") int id) {
-        model.addAttribute("user");
+        model.addAttribute("user", userService.show(id));
         return "users/edit";
     }
 
