@@ -1,10 +1,10 @@
-package ru.banana._1_1_SpringBoot.service;
+package ru.banana.SpringBoot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.banana._1_1_SpringBoot.DAO.UserDAO;
-import ru.banana._1_1_SpringBoot.models.User;
+import ru.banana.SpringBoot.DAO.UserDAO;
+import ru.banana.SpringBoot.models.User;
 
 import java.util.List;
 

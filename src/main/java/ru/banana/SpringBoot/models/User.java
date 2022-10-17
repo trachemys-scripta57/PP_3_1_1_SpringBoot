@@ -1,4 +1,4 @@
-package ru.banana._1_1_SpringBoot.models;
+package ru.banana.SpringBoot.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;

@@ -1,8 +1,8 @@
-package ru.banana._1_1_SpringBoot.service;
+package ru.banana.SpringBoot.service;
 
 
 
-import ru.banana._1_1_SpringBoot.models.User;
+import ru.banana.SpringBoot.models.User;
 
 import java.util.List;
 

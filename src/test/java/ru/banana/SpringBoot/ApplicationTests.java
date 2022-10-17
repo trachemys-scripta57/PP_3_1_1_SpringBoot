@@ -1,4 +1,4 @@
-package ru.banana._1_1_SpringBoot;
+package ru.banana.SpringBoot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,8 +1,8 @@
-package ru.banana._1_1_SpringBoot.DAO;
+package ru.banana.SpringBoot.DAO;
 
 
 
-import ru.banana._1_1_SpringBoot.models.User;
+import ru.banana.SpringBoot.models.User;
 
 import java.util.List;
 
